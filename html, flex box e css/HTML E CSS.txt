@@ -1,0 +1,66 @@
+HTML
+
+Elemento HTML=BASE DO HTML:
+
+tag de abertura+atributo que muda a funcionalidade aparencia ou diz algo ao navegador+conteudo do elemento e no final de fechamento. 
+Ex: <h1 class="título">Título</h1>
+
+Estrutura basica de um documento HTML:
+
+<!DOCTYPE html>: não é um elemento html, apenas informa o que você está escrevendo.
+
+<html>: tudo que diz respeito ao nosso conteudo está nesse elemento. 
+
+<head>: Dentro desse elemento teremos metainformações que o navegador necessita. 
+
+<meta>: tag muito utilizada, como por exemplo como o navegador vai fazer o incode dos caractéres. 
+<title></title>: tag que coloca o titulo na aba do navegador. 
+
+</head>: fecha o elemento head. 
+
+<body>: onde vai estar o conteudo da pagina. 
+
+</body>: fecha o elemento body.
+
+</html>: fecha o elemento html. 
+
+Semantica
+
+<section>: Representa uma seção genérica de conteúdo como uma lista de artigos. 
+
+<header>: Pode ser o cabeçario de sua pagina ou de uma section. 
+
+<article>: Representa um conteúdo relevante como o artigo de um blog. 
+
+<aside>: Representa um conteúdo relacionado ao conteúdo principal da pagina como uma biografia de um autor, links relacionados e noramlmente e representado por uma barra lateral. 
+
+<footer>: Pode ser um Ródapé da pagina ou de parte da pagina como uma section, article. 
+
+<h1> até <h6>: Representam a importância do titulo na sua pagina. 
+
+<p>conteúdo do artigo.</p>: Representa um paragrafo, serve para inserir contúdos, como textos, imagens, códigos, videos entre outros. 
+
+<a>Link<a>: Ancora, interliga conteudos na web. 
+
+<a href="https://www.linkedin.com/in/laila-taha-0b979312b/">Linkedin</a> : Iperlink para onde a sua aconra está apontando, pode ser uma pagina no seu site ou um site externo. 
+
+<a href="mailto:lai.m.taha@gmail.com">E-mail</a>: Aponta para e-mails ou telefones, tem que colocar o prefixo mailto ou tel. 
+
+<a target=_blank"</a> : Indica como o Link vai ser aberto, no caso do blank indica para abrir a pagina em outra aba. 
+
+<img> Elemento sem tag de fechamento, imagem.
+
+<img src="img/avatar.jpg"> : Obrigatório guarda o caminho da imagem, pode ser uma imagem dentro do seu próprio site ou em outro lugar.
+
+<img alt-"Foto da pessoa"> : Mesmo não sendo obrigatório é recomendado para melhorar a acessibilidade, mostra a descrição da foto quando ela não é carregada e leitores de tela usam a descrição para mostrar o que a imagem significa. 
+
+*https://tinypng.com/ : Esse site otimiza a imagem, remove dados desnecessários. 
+
+Listas
+
+<ul> : Representa uma lista em que a ordem dos itens não é impostante. 
+Ex: Item 1 / Item 2
+
+<ol> : A ordem dos itens é importante, por isso são representado por números, letras ou augarismos romanos. 
+
+<li> : é um item dessa lista. 
